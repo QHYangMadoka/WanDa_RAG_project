@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+
+# venv
+.venv/
+env/
+rag-env/
+
+# local data & logs
+datas/
+logs/
+volumes/
+*.db
+*.sqlite
+
+# secrets
+.env
+*.env
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
