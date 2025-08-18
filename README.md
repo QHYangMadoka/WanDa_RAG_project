@@ -32,28 +32,6 @@ This project requires Milvus Standalone running in a **Ubuntu WSL2 environment**
 - WSL Integration enabled for your Ubuntu distribution in Docker Desktop settings
 
 
-### 📂 Project Structure
-
-
-My_RAG_Project/
-│
-├── agent/ # RAG agent and LangGraph workflow
-│ ├── rag_agent.py # Main RAG agent logic (PDF-adapted)
-│ ├── graph_2.py # Adaptive/Corrective RAG graph structure
-│ └── ... # Nodes and chains for grading, query routing, etc.
-│
-├── documents/
-│ ├── pdf_parser.py # PDF parsing & semantic chunking
-│ ├── milvus_db_pdf.py # Milvus connection and schema for PDF docs
-│ ├── write_milvus_pdf.py # Multi-process PDF ingestion into Milvus
-│
-├── tools/
-│ ├── search_tools.py # Dense, sparse, hybrid retrieval tools (PDF-adapted)
-│ ├── retriever_tools.py # Retriever wrappers for Milvus
-│
-├── utils/
-│ ├── log_utils.py # Logging configuration
-│ ├── env_utils.py # Environment variable loading (keys, configs
 
 ### 📄 PDF Parsing & Storage Workflow
 
